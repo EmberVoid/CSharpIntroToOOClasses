@@ -1,0 +1,15 @@
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\bin\Debug\net8.0\Checkerboard.exe
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\bin\Debug\net8.0\Checkerboard.deps.json
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\bin\Debug\net8.0\Checkerboard.runtimeconfig.json
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\bin\Debug\net8.0\Checkerboard.dll
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\bin\Debug\net8.0\Checkerboard.pdb
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\obj\Debug\net8.0\Checkerboard.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\obj\Debug\net8.0\Checkerboard.AssemblyInfoInputs.cache
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\obj\Debug\net8.0\Checkerboard.AssemblyInfo.cs
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\obj\Debug\net8.0\Checkerboard.csproj.CoreCompileInputs.cache
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\obj\Debug\net8.0\Checkerboard.dll
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\obj\Debug\net8.0\refint\Checkerboard.dll
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\obj\Debug\net8.0\Checkerboard.pdb
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\obj\Debug\net8.0\Checkerboard.genruntimeconfig.cache
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\obj\Debug\net8.0\ref\Checkerboard.dll
+D:\Projects\C#\CloudAcademy\IntroToOOClasses\Checkerboard\obj\Debug\net8.0\Checkerboard.sourcelink.json
