@@ -6,8 +6,8 @@ namespace Boards
         private int rows;
         private int columns;
 
-        public int Rows { get { return rows; } set { rows = value; } }
-        public int Columns { get { return Columns; } set { IsColumnsValid(value); } }
+        public virtual int Rows { get { return rows; } set { rows = value; } }
+        public virtual int Columns { get { return Columns; } set { IsColumnsValid(value); } }
 
         //Constructors
         public Board()
@@ -20,7 +20,7 @@ namespace Boards
         {
             rows = r;
             IsColumnsValid(c);
-            Setup();
+            SetUp();
         }
 
         //Methods
@@ -33,12 +33,12 @@ namespace Boards
             }
             else if (value % 2 == 1)
             {
-                Console.WriteLine($"Columns must be even, value {value} is an invalid number of columns.");
+                Console.WriteLine($"Columns must be an even number, value {value} is an invalid number of columns.");
                 Environment.Exit(0);
             }
             else
             {
-                Console.WriteLine("Valid Size");
+                Console.WriteLine($"Valid Size: {value}");
                 SetColumns(value);
             }
         }
@@ -50,10 +50,9 @@ namespace Boards
             columns = value;
         }
 
-        public void Setup()
+        public void SetUp()
         {
             checkers = new int[rows, columns];
-
             bool squareValue = true;
 
             for (int r = 0; r < rows; r++)
