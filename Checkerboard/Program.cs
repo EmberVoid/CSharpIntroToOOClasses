@@ -7,7 +7,7 @@ namespace Checkerboard
         static void Main(string[] args)
         {
             Boards.Board chessBoard = new() { Rows = 8, Columns = 8 };
-            // chessBoard.Setup();
+            chessBoard.Setup();
             chessBoard.Print();
         }
     }
