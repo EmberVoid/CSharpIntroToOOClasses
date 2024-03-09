@@ -29,10 +29,38 @@ namespace Foreach
             planets.Add(new Planet("Neptune", 5430));
             planets.Add(new Planet("Pluto", 5900));
 
+            //Prints all planets
+            Console.WriteLine("\nPrinting all planets");
             foreach (Planet p in planets)
             {
                 Console.WriteLine(p);
             }
+
+            //Removes Pluto fromt the List
+            for (int i = 0; i < planets.Count; i++)
+            {
+                if (planets[i].Name == "Pluto")
+                {
+                    planets.RemoveAt(i);
+                }
+            }
+
+            //Prints all planets again to check that Pluto has been deleted.
+            Console.WriteLine("\nPrinting all planets (no Pluto)");
+            foreach (Planet p in planets)
+            {
+                Console.WriteLine(p);
+            }
+
+            //Prints all planets simulating space between the planets
+            Console.WriteLine("");
+            Planet innerPlanet = null;
+            foreach (Planet p in planets)
+            {
+                p.Print(innerPlanet);
+                innerPlanet = p;
+            }
+
         }
     }
 }
